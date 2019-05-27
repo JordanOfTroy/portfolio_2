@@ -1,0 +1,38 @@
+.section {
+    height: 100vh;
+}
+/* -----------Home section ------------------ */
+.hero {
+    /* background-image: url(https://images.pexels.com/photos/2317423/pexels-photo-2317423.jpeg?cs=srgb&dl=animal-ecology-environment-2317423.jpg&fm=jpg); */
+    background-image: url(https://images.pexels.com/photos/1470168/pexels-photo-1470168.jpeg?cs=srgb&dl=background-cactus-decor-1470168.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#landingText {
+    padding: 5vw;
+    /* background-color: rgba(135,158,130, .45); */
+    background-color: rgba(83,116,77, .45);
+    color: var(--wht);
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+}
+
+/* ----------- About section -------------------- */
+#about_section {
+    background-color: var(--wht);
+}
+
+.headshot {
+    background-image: url(../media/headshot.jpg);
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* ----------- Skills section -------------------- */
+/* ----------- Projects section -------------------- */
+/* ----------- Contact section -------------------- */
+/* ----------- KeyFrames -------------------- */
