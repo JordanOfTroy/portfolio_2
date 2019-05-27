@@ -18,18 +18,29 @@
 
 
     <!-------------------------- ABOUT SECTION ---------------------------------->
-    <!-- <img class="img-fluid" src="${STATIC_URL}homepage/media/headshot.jpg" alt="head shot"> -->
     <div class="section " id="about_section">
-        <div class="row d-flex justify-content-around">
+        <div class="row d-flex justify-content-around p-5">
             <h2>About</h2>
             <a href="#top_nav">back to top <i class="fas fa-arrow-up"></i></a>
         </div>
-       <div class="row">
-           <div class="col-6 bg-secondary d-flex justify-content-center align-items-center">
-               <div class="headshot"></div>
+        <div class="row">
+            <div class="col-6 d-flex justify-content-center align-items-center">
+                <img class="img-fluid w-50 my-3 headshot" src="${STATIC_URL}homepage/media/headshot.jpg" alt="head shot">
            </div>
-           <div class="col-6 bg-success">
-               <div class="headshot"></div>
+           <div class="col-6">
+                <div class="row mr-5">
+                    <div class="card m-5 quote">
+                        <div class="card-body">
+                            <blockquote class="blockquote m-2">
+                            <p>It is important to draw wisdom from different places. If you take it from only one source it becomes rigid and stale</p>
+                            <footer class="blockquote-footer">Uncle Iroh, <cite title="Source Title">Avatar: The Last Airbender</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    more text
+                </div>
            </div>
        </div>
     </div>

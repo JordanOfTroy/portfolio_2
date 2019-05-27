@@ -1,5 +1,6 @@
 .section {
     height: 100vh;
+    box-shadow: var(--shadow2);
 }
 /* -----------Home section ------------------ */
 .hero {
@@ -24,15 +25,22 @@
 }
 
 .headshot {
-    background-image: url(../media/headshot.jpg);
-    width: 200px;
-    height: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    box-shadow: var(--shadow2);
+    border-radius: var(--radius);
+}
+
+.quote {
+    background-color: rgba(83,116,77, .45) !important; 
+    color: var(--wht) !important;
 }
 
 
 /* ----------- Skills section -------------------- */
 /* ----------- Projects section -------------------- */
 /* ----------- Contact section -------------------- */
+#contact_section {
+    
+}
+
+
 /* ----------- KeyFrames -------------------- */
