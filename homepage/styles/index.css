@@ -39,7 +39,32 @@
 /* ----------- Projects section -------------------- */
 /* ----------- Contact section -------------------- */
 #contact_section {
-    
+    background-color: var(--pd2);
+}
+
+.contact_header {
+    color: var(--wht);
+}
+
+.contact_form {
+    background-color: var(--pl2);
+    border-radius: var(--radius);
+}
+
+.custom_input {
+    background-color: var(--pl1) !important;
+    box-shadow: inset var(--insetShadow);
+    color: var(--gr4) !important;
+}
+
+.send_email {
+    border: none !important;
+    background-color: var(--pri) !important;
+    color: var(--wht) !important;
+}
+
+.send_email:hover {
+    background-color: var(--pd1) !important;
 }
 
 

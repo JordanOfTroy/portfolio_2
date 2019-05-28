@@ -32,7 +32,7 @@
                     <div class="card m-5 quote">
                         <div class="card-body">
                             <blockquote class="blockquote m-2">
-                            <p>It is important to draw wisdom from different places. If you take it from only one source it becomes rigid and stale</p>
+                            <p>It is important to draw wisdom from different places. If you take it from only one source it becomes rigid and stale.</p>
                             <footer class="blockquote-footer">Uncle Iroh, <cite title="Source Title">Avatar: The Last Airbender</cite></footer>
                             </blockquote>
                         </div>
@@ -75,14 +75,50 @@
 
 
     <!-------------------------- CONTACT SECTION ---------------------------------->
-    <div class="section" id="contact_section">
-            <div class="row d-flex justify-content-around">
-                    <h2>Contact</h2>
-                    <a href="#top_nav">back to top <i class="fas fa-arrow-up"></i></a>
-                </div>
-        <div class="row">
-            <div class="col-12">
-                <H1>contact</H1>
+    <div class="section " id="contact_section">
+        <div class="row contact_header p-5">
+            <div class="col-12 d-flex justify-content-around">
+                <h2>Contact</h2>
+                <a href="#top_nav">back to top <i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center ">
+            <div class="col-6 p-5 mt-5 contact_form">
+                <form class="form-group" method="POST"> ${csrf_input}
+                    <div class="row p-2">
+                        <div class="col-6 p-2">
+                            <div class="input-group mb-3">
+                                <input name="name" type="text" class="form-control custom_input" placeholder="Your Name" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon2"><i class="fas fa-user-alt"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 p-2">
+                            <div class="input-group mb-3">
+                                <input name="email" type="text" class="form-control custom_input" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon2"><i class="fas fa-at"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="input-group mb-4">
+                                <textarea name="message" class="form-control custom_input" aria-label="With textarea" placeholder="Your Message" required></textarea>
+                                <div class="input-group-append">
+                                    <span class="input-group-text"><i class="far fa-keyboard fa-3x"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pb-1">
+                        <div class="col-12">
+                            <button class="btn btn-success send_email p-3">Send Message</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
