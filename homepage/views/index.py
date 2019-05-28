@@ -1,6 +1,7 @@
 from django.conf import settings
 from django_mako_plus import view_function, jscontext
 from datetime import datetime, timezone
+from django.core.mail import send_mail
 
 
 @view_function
@@ -17,6 +18,18 @@ def process_request(request):
         print(name)
         print(email)
         print(message)
+
+        
+        # send_mail(
+        #     '!!!Email From Portfolio!!!', ## Subject
+        #     str(message), # Message content
+        #     """${name} has sent you an email ---
+        #         ${message}
+        #     """,  # From email
+        #     ['jordantroysmithson@gmail.com'], # To email
+        #     fail_silently=False,
+        # )
+    
 
     utc_time = datetime.utcnow()
     context = {
