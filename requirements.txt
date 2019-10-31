@@ -1,2 +1,2 @@
-django==2.2.1
+django==2.2.4
 django-mako-plus==5.11.2
